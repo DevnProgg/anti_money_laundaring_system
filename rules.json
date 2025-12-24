@@ -1,0 +1,23 @@
+[
+    {
+        "rule_id": "single_transaction_exceeds_10000",
+        "name": "Single Transaction Exceeds $10,000",
+        "threshold_value": 10000.00,
+        "time_window": "0h",
+        "enabled": true
+    },
+    {
+        "rule_id": "daily_cumulative_exceeds_50000",
+        "name": "Daily Cumulative Transactions Exceeds $50,000",
+        "threshold_value": 50000.00,
+        "time_window": "24h",
+        "enabled": true
+    },
+    {
+        "rule_id": "more_than_5_transactions_in_1_hour",
+        "name": "More Than 5 Transactions in 1 Hour",
+        "threshold_value": 5.0,
+        "time_window": "1h",
+        "enabled": true
+    }
+]
